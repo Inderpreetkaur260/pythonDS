@@ -19,8 +19,3 @@ elif a<=100 and a>90:
     print("A+")
 else: 
     print("Invalid")
-
-
-
-
-print("Inder here")
