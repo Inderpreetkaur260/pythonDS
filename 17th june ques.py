@@ -20,7 +20,7 @@ print(l)
 print('------------')
 
 #QUESTION 4
-l="hello there!!!! how are you guys"
+l="hello there!!!! how are you guys" 
 count=0
 for i in l:
     if i==" ":
