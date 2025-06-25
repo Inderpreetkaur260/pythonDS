@@ -25,7 +25,7 @@ def add():
     year = input_int("Enter release year: ")
     duration = input_int("Enter duration in minutes: ")
     genres = input_something("Enter genres (comma-separated): ")
-    genres = [genre for genre in genres]
+    genres = genres.split(",")
     
     n_movie = {
         "name": name,
