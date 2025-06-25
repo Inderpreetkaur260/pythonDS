@@ -117,16 +117,3 @@ while True:
         quit()
     
 
-def search_movies(data):
-    if not data:
-        print("No movies saved.\n")
-        return
-    term = input_something("Enter search term: ").lower()
-    found = False
-    for i, movie in enumerate(data, 1):
-        if term in movie['name'].lower():
-            print(f"{i}) {movie['name']} ({movie['year']})")
-            found = True
-    if not found:
-        print("No matching movies found.")
-    print()
