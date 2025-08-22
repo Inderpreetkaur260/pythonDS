@@ -10,6 +10,7 @@ import io
 import numpy as np
 
 # -------------------- Helpers --------------------
+st.set_page_config(page_title="Global Cost of Living Explorer", layout="wide")
 def clean_numeric(series):
     return pd.to_numeric(series.replace('[^0-9.]', '', regex=True), errors='coerce').fillna(0)
 
@@ -31,13 +32,13 @@ except FileNotFoundError:
     st.error("Data file not found. Please ensure 'cost_of_living_indian_cities.csv' is present in the working directory.")
     st.stop()
 
+
 # -------------------- Sidebar Navigation --------------------
 pages = ["🏠 Home", "ℹ️ About", "🔍 Filter & Insights", "📊 EDA", "🌟 Recommendations"]
 selected_page = st.sidebar.radio("Navigate", pages)
 
 # -------------------- Home --------------------
 if selected_page == "🏠 Home":
-    st.set_page_config(page_title="Global Cost of Living Explorer", layout="wide")
     st.title("🌍 Global Cost of Living Explorer")
     st.markdown("""
     ## 👋 Welcome Explorer!
@@ -147,7 +148,7 @@ elif selected_page == "🔍 Filter & Insights":
     min_salary = st.sidebar.slider("💵 Minimum Avg Salary (₹)", 10000, 100000, 20000)
     max_aff_index = st.sidebar.slider("📊 Max Affordability Index", 0.1, 5.0, 1.0)
     normalize = st.sidebar.checkbox("📉 Show Normalized (% of Salary) Costs")
-
+    
     st.success(f"You're exploring data for {selected_city} in the {region_selected} region.")
 
     filtered_df = data[data["City"].isin([selected_city])].copy()
@@ -160,7 +161,7 @@ elif selected_page == "🔍 Filter & Insights":
     )
     filtered_df['Transport'] = clean_numeric(filtered_df['Monthly Pass (Regular Price)'])
     filtered_df['Total Cost'] = filtered_df['Rent'] + filtered_df['Groceries'] + filtered_df['Transport']
-    filtered_df['Affordability Index'] = filtered_df['Total Cost'] / filtered_df['Salary']
+    filtered_df['Affordability Index'] = filtered_df['Salary'] / filtered_df['Total Cost']
 
     tabs = st.tabs([
         "🏙️ City Overview",
@@ -173,8 +174,49 @@ elif selected_page == "🔍 Filter & Insights":
     ])
 
     with tabs[0]:
-        st.subheader(f"💸 Cost Breakdown for {selected_city}")
-        st.dataframe(filtered_df[['City', 'Salary', 'Rent', 'Groceries', 'Transport', 'Total Cost', 'Affordability Index']])
+        st.markdown(
+            f"""
+            <div style="
+                background-color:#f9fafb;
+                border-radius:16px;
+                padding:20px;
+                box-shadow:0 4px 12px rgba(0,0,0,0.1);
+                margin-bottom:15px;
+                width: 60%;
+            ">
+                <h3 style="margin:0; color:#2d3748;">💸 Cost Breakdown for {selected_city}</h3>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        if filtered_df.empty:
+            st.warning("No data available for the selected filters.")
+        else:
+            row = filtered_df.iloc[0]  # just the first row (assuming one city is selected)
+        st.markdown(
+            f"""
+            <div style="
+                background-color:white;
+                border-radius:12px;
+                padding:16px 20px;
+                margin:8px 0;
+                box-shadow:0 2px 8px rgba(0,0,0,0.12);
+                width: 60%;
+            ">
+                <h4 style="margin-top:0; margin-bottom:10px; color:#2b6cb0;">{row['City']}</h4>
+                <table style="width:100%; font-size:14px; color:#4a5568;">
+                    <tr><td><b>Salary</b></td><td>{row['Salary']}</td></tr>
+                    <tr><td><b>Rent</b></td><td>{row['Rent']}</td></tr>
+                    <tr><td><b>Groceries</b></td><td>{row['Groceries']}</td></tr>
+                    <tr><td><b>Transport</b></td><td>{row['Transport']}</td></tr>
+                    <tr><td><b>Total Cost</b></td><td>{row['Total Cost']}</td></tr>
+                    <tr><td><b>Affordability Index</b></td><td>{row['Affordability Index']}</td></tr>
+                </table>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
     with tabs[1]:
         st.subheader("📊 Compare Cities")
@@ -190,7 +232,7 @@ elif selected_page == "🔍 Filter & Insights":
         )
         compare_df['Transport'] = clean_numeric(compare_df['Monthly Pass (Regular Price)'])
         compare_df['Total Cost'] = compare_df['Rent'] + compare_df['Groceries'] + compare_df['Transport']
-        compare_df['Affordability Index'] = compare_df['Total Cost'] / compare_df['Salary']
+        compare_df['Affordability Index'] =  compare_df['Salary'] / compare_df['Total Cost']
 
         fig_compare = px.bar(compare_df, x='City', y='Total Cost', color='City', title="Total Monthly Cost by City")
         st.plotly_chart(fig_compare)
@@ -209,8 +251,57 @@ elif selected_page == "🔍 Filter & Insights":
             st.warning(f"{selected_city} exceeds your budget.")
 
     with tabs[3]:
-        st.subheader("🗺️ Map View (Static)")
-        st.map(pd.DataFrame({'lat': [22.59], 'lon': [78.96]}))
+        st.subheader("🗺️ Map View")
+        city_coords = {
+            "Delhi": [28.7041, 77.1025],
+            "Mumbai": [19.0760, 72.8777],
+            "Bengaluru": [12.9716, 77.5946],
+            "Chennai": [13.0827, 80.2707],
+            "Hyderabad": [17.3850, 78.4867],
+            "Kolkata": [22.5726, 88.3639],
+            "Pune": [18.5204, 73.8567],
+            "Ahmedabad": [23.0225, 72.5714],
+            "Jaipur": [26.9124, 75.7873],
+            "Lucknow": [26.8467, 80.9462],
+            "Chandigarh": [30.7333, 76.7794],
+            "Bhopal": [23.2599, 77.4126],
+            "Nagpur": [21.1458, 79.0882],
+            "Kochi": [9.9312, 76.2673],
+            "Bhubaneswar": [20.2961, 85.8245],
+            "Guwahati": [26.1445, 91.7362]
+        }
+
+        if selected_city in city_coords:
+            lat, lon = city_coords[selected_city]
+
+            # Create Folium map
+            m = folium.Map(location=[lat, lon], zoom_start=10, tiles="CartoDB positron")
+
+            # Take the selected city's row safely
+            row = filtered_df.iloc[0]
+
+            # Create popup (string only, no functions!)
+            popup_html = f"""
+            <b>{selected_city}</b><br>
+            💰 Salary: ₹{row['Salary']:,}<br>
+            🏠 Rent: ₹{row['Rent']:,}<br>
+            🛒 Groceries: ₹{row['Groceries']:,}<br>
+            🚇 Transport: ₹{row['Transport']:,}<br>
+            📊 Total Cost: ₹{row['Total Cost']:,}<br>
+            ⚖️ Affordability Index: {row['Affordability Index']:.2f}
+            """
+
+            folium.Marker(
+                [lat, lon],
+                popup=folium.Popup(popup_html, max_width=250),  # ✅ wrapped in folium.Popup
+                tooltip=f"{selected_city}",
+                icon=folium.Icon(color="blue", icon="info-sign")
+            ).add_to(m)
+
+            # Render map safely
+            st_folium(m, width=725, height=500)
+        else:
+            st.info("Coordinates not available for this city.")
 
     with tabs[4]:
         st.subheader("🧮 Cost Calculator")
