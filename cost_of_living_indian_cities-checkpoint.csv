@@ -1,0 +1,441 @@
+City,Category,Price
+Mumbai,"Meal, Inexpensive Restaurant",500.00 ₹
+Mumbai,"Meal for 2 People, Mid-range Restaurant, Three-course","2,000.00 ₹"
+Mumbai,McMeal at McDonalds (or Equivalent Combo Meal),400.00 ₹
+Mumbai,Domestic Beer (0.5 liter draught),200.00 ₹
+Mumbai,Imported Beer (0.33 liter bottle),350.00 ₹
+Mumbai,Cappuccino (regular),231.26 ₹
+Mumbai,Coke/Pepsi (0.33 liter bottle),54.90 ₹
+Mumbai,Water (0.33 liter bottle),15.89 ₹
+Mumbai,"Milk (regular), (1 liter)",64.85 ₹
+Mumbai,Loaf of Fresh White Bread (500g),45.58 ₹
+Mumbai,"Rice (white), (1kg)",71.19 ₹
+Mumbai,Eggs (regular) (12),91.99 ₹
+Mumbai,Local Cheese (1kg),581.82 ₹
+Mumbai,Chicken Fillets (1kg),331.03 ₹
+Mumbai,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),608.13 ₹
+Mumbai,Apples (1kg),206.80 ₹
+Mumbai,Banana (1kg),68.64 ₹
+Mumbai,Oranges (1kg),111.78 ₹
+Mumbai,Tomato (1kg),56.42 ₹
+Mumbai,Potato (1kg),45.73 ₹
+Mumbai,Onion (1kg),50.70 ₹
+Mumbai,Lettuce (1 head),63.90 ₹
+Mumbai,Water (1.5 liter bottle),29.48 ₹
+Mumbai,Bottle of Wine (Mid-Range),750.00 ₹
+Mumbai,Domestic Beer (0.5 liter bottle),187.47 ₹
+Mumbai,Imported Beer (0.33 liter bottle),285.17 ₹
+Mumbai,Cigarettes 20 Pack (Marlboro),360.00 ₹
+Mumbai,One-way Ticket (Local Transport),20.00 ₹
+Mumbai,Monthly Pass (Regular Price),400.00 ₹
+Mumbai,Taxi Start (Normal Tariff),30.00 ₹
+Mumbai,Taxi 1km (Normal Tariff),30.00 ₹
+Mumbai,Taxi 1hour Waiting (Normal Tariff),120.00 ₹
+Mumbai,Gasoline (1 liter),104.53 ₹
+Mumbai,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,500,000.00 ₹"
+Mumbai,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,158,521.74 ₹"
+Mumbai,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","4,487.63 ₹"
+Mumbai,Mobile Phone Monthly Plan with Calls and 10GB+ Data,410.79 ₹
+Mumbai,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",798.94 ₹
+Mumbai,"Fitness Club, Monthly Fee for 1 Adult","2,057.07 ₹"
+Mumbai,Tennis Court Rent (1 Hour on Weekend),"1,088.46 ₹"
+Mumbai,"Cinema, International Release, 1 Seat",400.00 ₹
+Mumbai,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","10,061.63 ₹"
+Mumbai,"International Primary School, Yearly for 1 Child","325,757.58 ₹"
+Mumbai,1 Pair of Jeans (Levis 501 Or Similar),"2,509.68 ₹"
+Mumbai,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,449.97 ₹"
+Mumbai,1 Pair of Nike Running Shoes (Mid-Range),"4,742.11 ₹"
+Mumbai,1 Pair of Men Leather Business Shoes,"3,486.06 ₹"
+Mumbai,Apartment (1 bedroom) in City Centre,"59,735.74 ₹"
+Mumbai,Apartment (1 bedroom) Outside of Centre,"30,761.87 ₹"
+Mumbai,Apartment (3 bedrooms) in City Centre,"159,534.88 ₹"
+Mumbai,Apartment (3 bedrooms) Outside of Centre,"73,256.41 ₹"
+Mumbai,Price per Square Meter to Buy Apartment in City Centre,"610,451.15 ₹"
+Mumbai,Price per Square Meter to Buy Apartment Outside of Centre,"263,062.43 ₹"
+Mumbai,Average Monthly Net Salary (After Tax),"71,641.03 ₹"
+Mumbai,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.15
+Delhi,"Meal, Inexpensive Restaurant",400.00 ₹
+Delhi,"Meal for 2 People, Mid-range Restaurant, Three-course","1,800.00 ₹"
+Delhi,McMeal at McDonalds (or Equivalent Combo Meal),325.00 ₹
+Delhi,Domestic Beer (0.5 liter draught),180.00 ₹
+Delhi,Imported Beer (0.33 liter bottle),300.00 ₹
+Delhi,Cappuccino (regular),179.48 ₹
+Delhi,Coke/Pepsi (0.33 liter bottle),43.19 ₹
+Delhi,Water (0.33 liter bottle),14.11 ₹
+Delhi,"Milk (regular), (1 liter)",66.25 ₹
+Delhi,Loaf of Fresh White Bread (500g),50.02 ₹
+Delhi,"Rice (white), (1kg)",77.91 ₹
+Delhi,Eggs (regular) (12),98.02 ₹
+Delhi,Local Cheese (1kg),404.00 ₹
+Delhi,Chicken Fillets (1kg),310.91 ₹
+Delhi,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),471.62 ₹
+Delhi,Apples (1kg),182.27 ₹
+Delhi,Banana (1kg),70.80 ₹
+Delhi,Oranges (1kg),86.98 ₹
+Delhi,Tomato (1kg),53.00 ₹
+Delhi,Potato (1kg),34.86 ₹
+Delhi,Onion (1kg),44.40 ₹
+Delhi,Lettuce (1 head),50.80 ₹
+Delhi,Water (1.5 liter bottle),29.79 ₹
+Delhi,Bottle of Wine (Mid-Range),900.00 ₹
+Delhi,Domestic Beer (0.5 liter bottle),161.76 ₹
+Delhi,Imported Beer (0.33 liter bottle),239.23 ₹
+Delhi,Cigarettes 20 Pack (Marlboro),350.00 ₹
+Delhi,One-way Ticket (Local Transport),40.00 ₹
+Delhi,Monthly Pass (Regular Price),"1,000.00 ₹"
+Delhi,Taxi Start (Normal Tariff),50.00 ₹
+Delhi,Taxi 1km (Normal Tariff),22.50 ₹
+Delhi,Taxi 1hour Waiting (Normal Tariff),105.00 ₹
+Delhi,Gasoline (1 liter),98.56 ₹
+Delhi,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,450,000.00 ₹"
+Delhi,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,056,490.56 ₹"
+Delhi,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","5,841.09 ₹"
+Delhi,Mobile Phone Monthly Plan with Calls and 10GB+ Data,370.60 ₹
+Delhi,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",726.79 ₹
+Delhi,"Fitness Club, Monthly Fee for 1 Adult","1,881.43 ₹"
+Delhi,Tennis Court Rent (1 Hour on Weekend),835.67 ₹
+Delhi,"Cinema, International Release, 1 Seat",400.00 ₹
+Delhi,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","6,767.65 ₹"
+Delhi,"International Primary School, Yearly for 1 Child","195,555.56 ₹"
+Delhi,1 Pair of Jeans (Levis 501 Or Similar),"2,388.37 ₹"
+Delhi,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,887.88 ₹"
+Delhi,1 Pair of Nike Running Shoes (Mid-Range),"4,507.67 ₹"
+Delhi,1 Pair of Men Leather Business Shoes,"3,276.92 ₹"
+Delhi,Apartment (1 bedroom) in City Centre,"20,395.35 ₹"
+Delhi,Apartment (1 bedroom) Outside of Centre,"11,906.98 ₹"
+Delhi,Apartment (3 bedrooms) in City Centre,"50,681.82 ₹"
+Delhi,Apartment (3 bedrooms) Outside of Centre,"28,604.65 ₹"
+Delhi,Price per Square Meter to Buy Apartment in City Centre,"191,408.11 ₹"
+Delhi,Price per Square Meter to Buy Apartment Outside of Centre,"105,053.46 ₹"
+Delhi,Average Monthly Net Salary (After Tax),"54,710.35 ₹"
+Delhi,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.14
+Bangalore,"Meal, Inexpensive Restaurant",300.00 ₹
+Bangalore,"Meal for 2 People, Mid-range Restaurant, Three-course","1,500.00 ₹"
+Bangalore,McMeal at McDonalds (or Equivalent Combo Meal),400.00 ₹
+Bangalore,Domestic Beer (0.5 liter draught),200.00 ₹
+Bangalore,Imported Beer (0.33 liter bottle),350.00 ₹
+Bangalore,Cappuccino (regular),197.11 ₹
+Bangalore,Coke/Pepsi (0.33 liter bottle),42.21 ₹
+Bangalore,Water (0.33 liter bottle),14.55 ₹
+Bangalore,"Milk (regular), (1 liter)",55.79 ₹
+Bangalore,Loaf of Fresh White Bread (500g),52.98 ₹
+Bangalore,"Rice (white), (1kg)",75.27 ₹
+Bangalore,Eggs (regular) (12),85.88 ₹
+Bangalore,Local Cheese (1kg),662.47 ₹
+Bangalore,Chicken Fillets (1kg),327.33 ₹
+Bangalore,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),679.38 ₹
+Bangalore,Apples (1kg),223.62 ₹
+Bangalore,Banana (1kg),66.93 ₹
+Bangalore,Oranges (1kg),101.84 ₹
+Bangalore,Tomato (1kg),33.86 ₹
+Bangalore,Potato (1kg),40.38 ₹
+Bangalore,Onion (1kg),41.40 ₹
+Bangalore,Lettuce (1 head),40.34 ₹
+Bangalore,Water (1.5 liter bottle),29.43 ₹
+Bangalore,Bottle of Wine (Mid-Range),900.00 ₹
+Bangalore,Domestic Beer (0.5 liter bottle),182.84 ₹
+Bangalore,Imported Beer (0.33 liter bottle),289.47 ₹
+Bangalore,Cigarettes 20 Pack (Marlboro),350.00 ₹
+Bangalore,One-way Ticket (Local Transport),50.00 ₹
+Bangalore,Monthly Pass (Regular Price),"1,200.00 ₹"
+Bangalore,Taxi Start (Normal Tariff),100.00 ₹
+Bangalore,Taxi 1km (Normal Tariff),30.00 ₹
+Bangalore,Taxi 1hour Waiting (Normal Tariff),200.00 ₹
+Bangalore,Gasoline (1 liter),104.29 ₹
+Bangalore,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,200,000.00 ₹"
+Bangalore,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,175,194.20 ₹"
+Bangalore,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","2,783.77 ₹"
+Bangalore,Mobile Phone Monthly Plan with Calls and 10GB+ Data,447.30 ₹
+Bangalore,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",894.08 ₹
+Bangalore,"Fitness Club, Monthly Fee for 1 Adult","1,581.85 ₹"
+Bangalore,Tennis Court Rent (1 Hour on Weekend),505.69 ₹
+Bangalore,"Cinema, International Release, 1 Seat",450.00 ₹
+Bangalore,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","10,000.00 ₹"
+Bangalore,"International Primary School, Yearly for 1 Child","277,432.43 ₹"
+Bangalore,1 Pair of Jeans (Levis 501 Or Similar),"2,464.40 ₹"
+Bangalore,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,516.96 ₹"
+Bangalore,1 Pair of Nike Running Shoes (Mid-Range),"4,700.00 ₹"
+Bangalore,1 Pair of Men Leather Business Shoes,"3,471.40 ₹"
+Bangalore,Apartment (1 bedroom) in City Centre,"26,430.00 ₹"
+Bangalore,Apartment (1 bedroom) Outside of Centre,"16,287.23 ₹"
+Bangalore,Apartment (3 bedrooms) in City Centre,"72,705.88 ₹"
+Bangalore,Apartment (3 bedrooms) Outside of Centre,"43,843.14 ₹"
+Bangalore,Price per Square Meter to Buy Apartment in City Centre,"192,533.85 ₹"
+Bangalore,Price per Square Meter to Buy Apartment Outside of Centre,"100,173.21 ₹"
+Bangalore,Average Monthly Net Salary (After Tax),"109,583.66 ₹"
+Bangalore,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.02
+Hyderabad,"Meal, Inexpensive Restaurant",300.00 ₹
+Hyderabad,"Meal for 2 People, Mid-range Restaurant, Three-course","1,500.00 ₹"
+Hyderabad,McMeal at McDonalds (or Equivalent Combo Meal),450.00 ₹
+Hyderabad,Domestic Beer (0.5 liter draught),200.00 ₹
+Hyderabad,Imported Beer (0.33 liter bottle),300.00 ₹
+Hyderabad,Cappuccino (regular),172.50 ₹
+Hyderabad,Coke/Pepsi (0.33 liter bottle),44.71 ₹
+Hyderabad,Water (0.33 liter bottle),15.69 ₹
+Hyderabad,"Milk (regular), (1 liter)",71.03 ₹
+Hyderabad,Loaf of Fresh White Bread (500g),50.68 ₹
+Hyderabad,"Rice (white), (1kg)",64.37 ₹
+Hyderabad,Eggs (regular) (12),87.03 ₹
+Hyderabad,Local Cheese (1kg),576.25 ₹
+Hyderabad,Chicken Fillets (1kg),319.29 ₹
+Hyderabad,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),561.36 ₹
+Hyderabad,Apples (1kg),231.86 ₹
+Hyderabad,Banana (1kg),63.44 ₹
+Hyderabad,Oranges (1kg),90.42 ₹
+Hyderabad,Tomato (1kg),41.05 ₹
+Hyderabad,Potato (1kg),41.12 ₹
+Hyderabad,Onion (1kg),42.68 ₹
+Hyderabad,Lettuce (1 head),59.38 ₹
+Hyderabad,Water (1.5 liter bottle),30.14 ₹
+Hyderabad,Bottle of Wine (Mid-Range),800.00 ₹
+Hyderabad,Domestic Beer (0.5 liter bottle),173.54 ₹
+Hyderabad,Imported Beer (0.33 liter bottle),253.96 ₹
+Hyderabad,Cigarettes 20 Pack (Marlboro),350.00 ₹
+Hyderabad,One-way Ticket (Local Transport),50.00 ₹
+Hyderabad,Monthly Pass (Regular Price),"1,200.00 ₹"
+Hyderabad,Taxi Start (Normal Tariff),100.00 ₹
+Hyderabad,Taxi 1km (Normal Tariff),30.00 ₹
+Hyderabad,Taxi 1hour Waiting (Normal Tariff),120.00 ₹
+Hyderabad,Gasoline (1 liter),108.02 ₹
+Hyderabad,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,500,000.00 ₹"
+Hyderabad,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,114,000.00 ₹"
+Hyderabad,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","3,437.43 ₹"
+Hyderabad,Mobile Phone Monthly Plan with Calls and 10GB+ Data,390.24 ₹
+Hyderabad,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",707.31 ₹
+Hyderabad,"Fitness Club, Monthly Fee for 1 Adult","1,808.82 ₹"
+Hyderabad,Tennis Court Rent (1 Hour on Weekend),643.18 ₹
+Hyderabad,"Cinema, International Release, 1 Seat",350.00 ₹
+Hyderabad,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","9,778.85 ₹"
+Hyderabad,"International Primary School, Yearly for 1 Child","223,703.70 ₹"
+Hyderabad,1 Pair of Jeans (Levis 501 Or Similar),"2,603.30 ₹"
+Hyderabad,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,016.64 ₹"
+Hyderabad,1 Pair of Nike Running Shoes (Mid-Range),"4,232.07 ₹"
+Hyderabad,1 Pair of Men Leather Business Shoes,"3,162.96 ₹"
+Hyderabad,Apartment (1 bedroom) in City Centre,"20,023.37 ₹"
+Hyderabad,Apartment (1 bedroom) Outside of Centre,"11,475.00 ₹"
+Hyderabad,Apartment (3 bedrooms) in City Centre,"53,333.33 ₹"
+Hyderabad,Apartment (3 bedrooms) Outside of Centre,"28,420.45 ₹"
+Hyderabad,Price per Square Meter to Buy Apartment in City Centre,"126,693.31 ₹"
+Hyderabad,Price per Square Meter to Buy Apartment Outside of Centre,"73,446.19 ₹"
+Hyderabad,Average Monthly Net Salary (After Tax),"95,256.77 ₹"
+Hyderabad,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.23
+Chennai,"Meal, Inexpensive Restaurant",200.00 ₹
+Chennai,"Meal for 2 People, Mid-range Restaurant, Three-course","1,000.00 ₹"
+Chennai,McMeal at McDonalds (or Equivalent Combo Meal),350.00 ₹
+Chennai,Domestic Beer (0.5 liter draught),180.00 ₹
+Chennai,Imported Beer (0.33 liter bottle),350.00 ₹
+Chennai,Cappuccino (regular),181.88 ₹
+Chennai,Coke/Pepsi (0.33 liter bottle),42.07 ₹
+Chennai,Water (0.33 liter bottle),16.71 ₹
+Chennai,"Milk (regular), (1 liter)",51.79 ₹
+Chennai,Loaf of Fresh White Bread (500g),43.59 ₹
+Chennai,"Rice (white), (1kg)",65.22 ₹
+Chennai,Eggs (regular) (12),77.53 ₹
+Chennai,Local Cheese (1kg),594.13 ₹
+Chennai,Chicken Fillets (1kg),306.77 ₹
+Chennai,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),541.61 ₹
+Chennai,Apples (1kg),248.50 ₹
+Chennai,Banana (1kg),74.16 ₹
+Chennai,Oranges (1kg),110.74 ₹
+Chennai,Tomato (1kg),41.23 ₹
+Chennai,Potato (1kg),46.05 ₹
+Chennai,Onion (1kg),46.46 ₹
+Chennai,Lettuce (1 head),48.48 ₹
+Chennai,Water (1.5 liter bottle),29.63 ₹
+Chennai,Bottle of Wine (Mid-Range),700.00 ₹
+Chennai,Domestic Beer (0.5 liter bottle),165.33 ₹
+Chennai,Imported Beer (0.33 liter bottle),275.75 ₹
+Chennai,Cigarettes 20 Pack (Marlboro),330.00 ₹
+Chennai,One-way Ticket (Local Transport),30.00 ₹
+Chennai,Monthly Pass (Regular Price),"1,000.00 ₹"
+Chennai,Taxi Start (Normal Tariff),120.00 ₹
+Chennai,Taxi 1km (Normal Tariff),25.00 ₹
+Chennai,Taxi 1hour Waiting (Normal Tariff),150.00 ₹
+Chennai,Gasoline (1 liter),102.13 ₹
+Chennai,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,500,000.00 ₹"
+Chennai,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,052,500.00 ₹"
+Chennai,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","4,142.62 ₹"
+Chennai,Mobile Phone Monthly Plan with Calls and 10GB+ Data,423.80 ₹
+Chennai,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",797.38 ₹
+Chennai,"Fitness Club, Monthly Fee for 1 Adult","1,431.03 ₹"
+Chennai,Tennis Court Rent (1 Hour on Weekend),625.00 ₹
+Chennai,"Cinema, International Release, 1 Seat",250.00 ₹
+Chennai,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","6,766.67 ₹"
+Chennai,"International Primary School, Yearly for 1 Child","143,423.08 ₹"
+Chennai,1 Pair of Jeans (Levis 501 Or Similar),"2,145.53 ₹"
+Chennai,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","1,913.79 ₹"
+Chennai,1 Pair of Nike Running Shoes (Mid-Range),"4,276.63 ₹"
+Chennai,1 Pair of Men Leather Business Shoes,"3,165.52 ₹"
+Chennai,Apartment (1 bedroom) in City Centre,"16,428.12 ₹"
+Chennai,Apartment (1 bedroom) Outside of Centre,"10,048.39 ₹"
+Chennai,Apartment (3 bedrooms) in City Centre,"38,310.34 ₹"
+Chennai,Apartment (3 bedrooms) Outside of Centre,"22,503.23 ₹"
+Chennai,Price per Square Meter to Buy Apartment in City Centre,"171,023.26 ₹"
+Chennai,Price per Square Meter to Buy Apartment Outside of Centre,"64,459.44 ₹"
+Chennai,Average Monthly Net Salary (After Tax),"68,970.59 ₹"
+Chennai,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.59
+Pune,"Meal, Inexpensive Restaurant",350.00 ₹
+Pune,"Meal for 2 People, Mid-range Restaurant, Three-course","1,500.00 ₹"
+Pune,McMeal at McDonalds (or Equivalent Combo Meal),450.00 ₹
+Pune,Domestic Beer (0.5 liter draught),200.00 ₹
+Pune,Imported Beer (0.33 liter bottle),350.00 ₹
+Pune,Cappuccino (regular),207.82 ₹
+Pune,Coke/Pepsi (0.33 liter bottle),40.27 ₹
+Pune,Water (0.33 liter bottle),15.63 ₹
+Pune,"Milk (regular), (1 liter)",66.69 ₹
+Pune,Loaf of Fresh White Bread (500g),49.68 ₹
+Pune,"Rice (white), (1kg)",68.06 ₹
+Pune,Eggs (regular) (12),91.81 ₹
+Pune,Local Cheese (1kg),606.23 ₹
+Pune,Chicken Fillets (1kg),348.97 ₹
+Pune,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),601.36 ₹
+Pune,Apples (1kg),230.06 ₹
+Pune,Banana (1kg),71.29 ₹
+Pune,Oranges (1kg),130.31 ₹
+Pune,Tomato (1kg),58.75 ₹
+Pune,Potato (1kg),48.97 ₹
+Pune,Onion (1kg),49.86 ₹
+Pune,Lettuce (1 head),60.42 ₹
+Pune,Water (1.5 liter bottle),30.00 ₹
+Pune,Bottle of Wine (Mid-Range),750.00 ₹
+Pune,Domestic Beer (0.5 liter bottle),189.87 ₹
+Pune,Imported Beer (0.33 liter bottle),295.42 ₹
+Pune,Cigarettes 20 Pack (Marlboro),350.00 ₹
+Pune,One-way Ticket (Local Transport),40.00 ₹
+Pune,Monthly Pass (Regular Price),"1,000.00 ₹"
+Pune,Taxi Start (Normal Tariff),40.00 ₹
+Pune,Taxi 1km (Normal Tariff),26.25 ₹
+Pune,Taxi 1hour Waiting (Normal Tariff),200.00 ₹
+Pune,Gasoline (1 liter),105.39 ₹
+Pune,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,300,000.00 ₹"
+Pune,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"1,990,909.09 ₹"
+Pune,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","2,470.90 ₹"
+Pune,Mobile Phone Monthly Plan with Calls and 10GB+ Data,424.39 ₹
+Pune,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",783.33 ₹
+Pune,"Fitness Club, Monthly Fee for 1 Adult","1,597.65 ₹"
+Pune,Tennis Court Rent (1 Hour on Weekend),643.18 ₹
+Pune,"Cinema, International Release, 1 Seat",400.00 ₹
+Pune,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","9,506.67 ₹"
+Pune,"International Primary School, Yearly for 1 Child","208,043.48 ₹"
+Pune,1 Pair of Jeans (Levis 501 Or Similar),"2,982.35 ₹"
+Pune,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,899.92 ₹"
+Pune,1 Pair of Nike Running Shoes (Mid-Range),"5,351.58 ₹"
+Pune,1 Pair of Men Leather Business Shoes,"3,482.72 ₹"
+Pune,Apartment (1 bedroom) in City Centre,"23,437.50 ₹"
+Pune,Apartment (1 bedroom) Outside of Centre,"15,454.55 ₹"
+Pune,Apartment (3 bedrooms) in City Centre,"53,875.00 ₹"
+Pune,Apartment (3 bedrooms) Outside of Centre,"31,312.66 ₹"
+Pune,Price per Square Meter to Buy Apartment in City Centre,"190,181.83 ₹"
+Pune,Price per Square Meter to Buy Apartment Outside of Centre,"107,254.62 ₹"
+Pune,Average Monthly Net Salary (After Tax),"80,187.50 ₹"
+Pune,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.12
+Kolkata,"Meal, Inexpensive Restaurant",250.00 ₹
+Kolkata,"Meal for 2 People, Mid-range Restaurant, Three-course","1,000.00 ₹"
+Kolkata,McMeal at McDonalds (or Equivalent Combo Meal),400.00 ₹
+Kolkata,Domestic Beer (0.5 liter draught),150.00 ₹
+Kolkata,Imported Beer (0.33 liter bottle),250.00 ₹
+Kolkata,Cappuccino (regular),148.52 ₹
+Kolkata,Coke/Pepsi (0.33 liter bottle),36.23 ₹
+Kolkata,Water (0.33 liter bottle),11.90 ₹
+Kolkata,"Milk (regular), (1 liter)",60.62 ₹
+Kolkata,Loaf of Fresh White Bread (500g),35.12 ₹
+Kolkata,"Rice (white), (1kg)",57.31 ₹
+Kolkata,Eggs (regular) (12),84.69 ₹
+Kolkata,Local Cheese (1kg),475.42 ₹
+Kolkata,Chicken Fillets (1kg),248.59 ₹
+Kolkata,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),643.67 ₹
+Kolkata,Apples (1kg),206.55 ₹
+Kolkata,Banana (1kg),70.81 ₹
+Kolkata,Oranges (1kg),113.76 ₹
+Kolkata,Tomato (1kg),53.24 ₹
+Kolkata,Potato (1kg),31.90 ₹
+Kolkata,Onion (1kg),47.57 ₹
+Kolkata,Lettuce (1 head),37.14 ₹
+Kolkata,Water (1.5 liter bottle),27.59 ₹
+Kolkata,Bottle of Wine (Mid-Range),800.00 ₹
+Kolkata,Domestic Beer (0.5 liter bottle),141.92 ₹
+Kolkata,Imported Beer (0.33 liter bottle),210.38 ₹
+Kolkata,Cigarettes 20 Pack (Marlboro),340.00 ₹
+Kolkata,One-way Ticket (Local Transport),20.00 ₹
+Kolkata,Monthly Pass (Regular Price),250.00 ₹
+Kolkata,Taxi Start (Normal Tariff),50.00 ₹
+Kolkata,Taxi 1km (Normal Tariff),30.00 ₹
+Kolkata,Taxi 1hour Waiting (Normal Tariff),175.00 ₹
+Kolkata,Gasoline (1 liter),104.74 ₹
+Kolkata,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,250,000.00 ₹"
+Kolkata,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"1,887,500.00 ₹"
+Kolkata,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","3,641.07 ₹"
+Kolkata,Mobile Phone Monthly Plan with Calls and 10GB+ Data,331.69 ₹
+Kolkata,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",615.35 ₹
+Kolkata,"Fitness Club, Monthly Fee for 1 Adult","1,358.97 ₹"
+Kolkata,Tennis Court Rent (1 Hour on Weekend),964.29 ₹
+Kolkata,"Cinema, International Release, 1 Seat",350.00 ₹
+Kolkata,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","3,559.96 ₹"
+Kolkata,"International Primary School, Yearly for 1 Child","148,238.10 ₹"
+Kolkata,1 Pair of Jeans (Levis 501 Or Similar),"2,474.00 ₹"
+Kolkata,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,499.95 ₹"
+Kolkata,1 Pair of Nike Running Shoes (Mid-Range),"4,166.67 ₹"
+Kolkata,1 Pair of Men Leather Business Shoes,"2,717.39 ₹"
+Kolkata,Apartment (1 bedroom) in City Centre,"13,800.00 ₹"
+Kolkata,Apartment (1 bedroom) Outside of Centre,"7,729.17 ₹"
+Kolkata,Apartment (3 bedrooms) in City Centre,"33,448.00 ₹"
+Kolkata,Apartment (3 bedrooms) Outside of Centre,"16,952.38 ₹"
+Kolkata,Price per Square Meter to Buy Apartment in City Centre,"103,838.41 ₹"
+Kolkata,Price per Square Meter to Buy Apartment Outside of Centre,"47,575.06 ₹"
+Kolkata,Average Monthly Net Salary (After Tax),"40,817.71 ₹"
+Kolkata,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",9.70
+Ahmedabad,"Meal, Inexpensive Restaurant",300.00 ₹
+Ahmedabad,"Meal for 2 People, Mid-range Restaurant, Three-course","1,500.00 ₹"
+Ahmedabad,McMeal at McDonalds (or Equivalent Combo Meal),400.00 ₹
+Ahmedabad,Domestic Beer (0.5 liter draught),275.00 ₹
+Ahmedabad,Imported Beer (0.33 liter bottle),500.00 ₹
+Ahmedabad,Cappuccino (regular),184.56 ₹
+Ahmedabad,Coke/Pepsi (0.33 liter bottle),39.23 ₹
+Ahmedabad,Water (0.33 liter bottle),14.32 ₹
+Ahmedabad,"Milk (regular), (1 liter)",63.97 ₹
+Ahmedabad,Loaf of Fresh White Bread (500g),50.44 ₹
+Ahmedabad,"Rice (white), (1kg)",75.17 ₹
+Ahmedabad,Eggs (regular) (12),95.25 ₹
+Ahmedabad,Local Cheese (1kg),535.75 ₹
+Ahmedabad,Chicken Fillets (1kg),340.42 ₹
+Ahmedabad,Buffalo Round (1kg) (or Equivalent Back Leg Red Meat),566.67 ₹
+Ahmedabad,Apples (1kg),180.00 ₹
+Ahmedabad,Banana (1kg),65.68 ₹
+Ahmedabad,Oranges (1kg),115.60 ₹
+Ahmedabad,Tomato (1kg),53.27 ₹
+Ahmedabad,Potato (1kg),37.50 ₹
+Ahmedabad,Onion (1kg),41.79 ₹
+Ahmedabad,Lettuce (1 head),58.08 ₹
+Ahmedabad,Water (1.5 liter bottle),28.86 ₹
+Ahmedabad,Bottle of Wine (Mid-Range),800.00 ₹
+Ahmedabad,Domestic Beer (0.5 liter bottle),221.59 ₹
+Ahmedabad,Imported Beer (0.33 liter bottle),408.57 ₹
+Ahmedabad,Cigarettes 20 Pack (Marlboro),360.00 ₹
+Ahmedabad,One-way Ticket (Local Transport),20.00 ₹
+Ahmedabad,Monthly Pass (Regular Price),625.00 ₹
+Ahmedabad,Taxi Start (Normal Tariff),100.00 ₹
+Ahmedabad,Taxi 1km (Normal Tariff),25.00 ₹
+Ahmedabad,Taxi 1hour Waiting (Normal Tariff),200.00 ₹
+Ahmedabad,Gasoline (1 liter),99.95 ₹
+Ahmedabad,Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car),"1,200,000.00 ₹"
+Ahmedabad,Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car),"2,190,909.09 ₹"
+Ahmedabad,"Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment","4,845.90 ₹"
+Ahmedabad,Mobile Phone Monthly Plan with Calls and 10GB+ Data,369.48 ₹
+Ahmedabad,"Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)",651.25 ₹
+Ahmedabad,"Fitness Club, Monthly Fee for 1 Adult","1,418.63 ₹"
+Ahmedabad,Tennis Court Rent (1 Hour on Weekend),794.44 ₹
+Ahmedabad,"Cinema, International Release, 1 Seat",300.00 ₹
+Ahmedabad,"Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child","4,576.47 ₹"
+Ahmedabad,"International Primary School, Yearly for 1 Child","131,538.46 ₹"
+Ahmedabad,1 Pair of Jeans (Levis 501 Or Similar),"2,143.35 ₹"
+Ahmedabad,"1 Summer Dress in a Chain Store (Zara, H&M, ...)","2,205.44 ₹"
+Ahmedabad,1 Pair of Nike Running Shoes (Mid-Range),"4,499.94 ₹"
+Ahmedabad,1 Pair of Men Leather Business Shoes,"3,147.26 ₹"
+Ahmedabad,Apartment (1 bedroom) in City Centre,"14,025.93 ₹"
+Ahmedabad,Apartment (1 bedroom) Outside of Centre,"10,826.92 ₹"
+Ahmedabad,Apartment (3 bedrooms) in City Centre,"32,800.39 ₹"
+Ahmedabad,Apartment (3 bedrooms) Outside of Centre,"20,714.29 ₹"
+Ahmedabad,Price per Square Meter to Buy Apartment in City Centre,"80,717.45 ₹"
+Ahmedabad,Price per Square Meter to Buy Apartment Outside of Centre,"60,419.91 ₹"
+Ahmedabad,Average Monthly Net Salary (After Tax),"45,541.67 ₹"
+Ahmedabad,"Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate",8.99
