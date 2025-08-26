@@ -83,13 +83,25 @@ elif selected_page == "📊 EDA":
     st.dataframe(data.describe(include='all'))
 
     st.subheader("2. Missing Values Heatmap")
-    fig, ax = plt.subplots(figsize=(10, 5))
-    sns.heatmap(data.isnull(), cbar=False, cmap="viridis", ax=ax)
-    st.pyplot(fig)
+    # fig, ax = plt.subplots(figsize=(10, 5))
+    # sns.heatmap(data.isnull(), cbar=False, cmap="Reds", ax=ax)
+    # st.pyplot(fig)
+    
+    missing = data.isnull().mean().sort_values(ascending=False)
+    if missing.sum() > 0:  # Only show if missing values exist
+        fig_missing = px.bar(
+            missing,
+            x=missing.index,
+            y=missing.values,
+            labels={'x': 'Column', 'y': 'Missing %'},
+            title="Missing Values Percentage by Column"
+        )
+        st.plotly_chart(fig_missing)
+
 
     st.subheader("3. Correlation Heatmap")
     numeric_data = data.select_dtypes(include=[np.number])
-    if not numeric_data.empty:
+    if not numeric_data.empty:      
         corr = numeric_data.corr()
         fig_corr, ax_corr = plt.subplots(figsize=(10, 6))
         sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax_corr)
