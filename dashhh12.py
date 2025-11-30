@@ -13,6 +13,7 @@ import numpy as np
 # Page config MUST be at the top before any Streamlit output
 st.set_page_config(page_title="Global Cost of Living Explorer in India", layout="wide")
 
+
 # -------------------- Helpers --------------------
 def clean_numeric(series: pd.Series) -> pd.Series:
     """Convert strings with symbols to numeric, coerce errors to 0."""
@@ -357,7 +358,8 @@ elif selected_page == "🔍 Filter & Insights":
         "🗺️ Map View",
         "🧮 Cost Calculator",
         "🗃️ Raw Data Explorer",
-        "📤 Upload Your Data"
+        "📤 Upload Your Data",
+        "📊 Dataset Overview"
     ])
 
     with tabs[0]:
@@ -517,6 +519,11 @@ elif selected_page == "🔍 Filter & Insights":
             uploaded_df = pd.read_csv(uploaded_file)
             st.write("First 5 rows of uploaded data:")
             st.dataframe(uploaded_df.head())
+
+    with tabs[7]:
+        st.subheader("Dataset Overview")
+        st.dataframe(data)
+
 
 # -------------------- Smart Recommendations --------------------
 # -------------------- Smart Recommendations --------------------
